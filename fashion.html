@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fashion Edit | The Little Edit</title>
+
+    <meta name="description"
+          content="A curated edit of Pinterest-worthy fashion finds, tops, shirts and wardrobe pieces.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap"
+          rel="stylesheet">
+
+    <!-- Fashion page CSS -->
+    <link rel="stylesheet" href="fashion.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="fashion-nav">
+
+        <a href="index.html" class="brand">
+            the little edit
+        </a>
+
+        <nav class="nav-links">
+
+            <a href="index.html">Home</a>
+            <a href="fashion.html" class="active">Fashion</a>
+            <a href="home.html">Home & Decor</a>
+            <a href="books.html">Books</a>
+            <a href="self-care.html">Self Care</a>
+
+        </nav>
+
+        <button class="menu-button" id="menuButton">
+            ☰
+        </button>
+
+    </header>
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <main>
+
+        <section class="fashion-hero">
+
+            <p class="eyebrow">
+                THE LITTLE EDIT · 01
+            </p>
+
+            <h1>
+                The Fashion<br>
+                <em>Edit.</em>
+            </h1>
+
+            <p class="hero-description">
+                Pretty things. Good silhouettes. Pieces that make
+                you stop scrolling and think — I need that.
+            </p>
+
+            <div class="hero-line"></div>
+
+            <p class="scroll-text">
+                SCROLL TO DISCOVER ↓
+            </p>
+
+        </section>
+
+
+        <!-- =========================
+             FILTER / CATEGORY BAR
+        ========================== -->
+
+        <section class="fashion-controls">
+
+            <div class="collection-label">
+                CURATED FOR YOU
+            </div>
+
+            <div class="filter-buttons">
+
+                <button class="filter-btn active" data-filter="all">
+                    All
+                </button>
+
+                <button class="filter-btn" data-filter="shirts">
+                    Shirts
+                </button>
+
+                <button class="filter-btn" data-filter="tops">
+                    Tops
+                </button>
+
+                <button class="filter-btn" data-filter="statement">
+                    Statement
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PRODUCT GRID
+        ========================== -->
+
+        <section class="product-grid" id="productGrid">
+
+
+            <!-- =====================================
+                 PRODUCT 01
+            ====================================== -->
+
+            <article class="fashion-card"
+                     data-category="shirts">
+
+                <div class="product-image">
+
+                    <!-- CHANGE IMAGE HERE -->
+                    <img src="https://m.media-amazon.com/images/I/71O3pBLywEL._SX679_.jpg"
+                         alt="The Cinched Cotton Shirt"
+                         loading="lazy">
+
+                    <span class="product-number">
+                        01
+                    </span>
+
+                    
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="product-type">
+                        SHIRT · STRUCTURED
+                    </p>
+
+                    <h2>
+                        The Cinched Cotton Shirt
+                    </h2>
+
+                    <p class="product-description">
+                        A feminine cotton shirt with a
+                        sculpted waist and delicate back
+                        tie-up detail.
+                    </p>
+
+                    <!-- PASTE YOUR AMAZON ASSOCIATES LINK HERE -->
+                    <a href="https://amzn.to/4xOIkdz"
+                       class="shop-button"
+                       target="_blank"
+                       rel="nofollow sponsored">
+
+                        Shop the find
+                        <span>↗</span>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =====================================
+                 PRODUCT 02
+            ====================================== -->
+
+            <article class="fashion-card"
+                     data-category="shirts">
+
+                <div class="product-image">
+
+                    <img src="https://m.media-amazon.com/images/I/91qcFauHYCL._SX679_.jpg"
+                         alt="The Classic Stripe Shirt"
+                         loading="lazy">
+
+                    <span class="product-number">
+                        02
+                    </span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="product-type">
+                        SHIRT · EVERYDAY
+                    </p>
+
+                    <h2>
+                        The Classic Stripe Shirt
+                    </h2>
+
+                    <p class="product-description">
+                        An effortless striped button-down
+                        for that slightly undone, model-off-duty
+                        look.
+                    </p>
+
+                    <!-- PASTE YOUR AMAZON ASSOCIATES LINK HERE -->
+                    <a href="https://link.amazon/B04QQUMMF"
+                       class="shop-button"
+                       target="_blank"
+                       rel="nofollow sponsored">
+
+                        Shop the find
+                        <span>↗</span>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =====================================
+                 PRODUCT 03
+            ====================================== -->
+
+            <article class="fashion-card"
+                     data-category="tops statement">
+
+                <div class="product-image">
+
+                    <img src="https://m.media-amazon.com/images/I/51msuheV86L._SX679_.jpg"
+                         alt="The Asymmetric Statement Top"
+                         loading="lazy">
+
+                    <span class="product-number">
+                        03
+                    </span>
+
+                    <span class="product-tag">
+                        STATEMENT
+                    </span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="product-type">
+                        TOP · STATEMENT
+                    </p>
+
+                    <h2>
+                        The Asymmetric Statement Top
+                    </h2>
+
+                    <p class="product-description">
+                        An asymmetric silhouette with just
+                        enough detail to turn a simple outfit
+                        into a whole look.
+                    </p>
+
+                    <!-- PASTE YOUR AMAZON ASSOCIATES LINK HERE -->
+                    <a href="https://link.amazon/B0e05TyyQ"
+                       class="shop-button"
+                       target="_blank"
+                       rel="nofollow sponsored">
+
+                        Shop the find
+                        <span>↗</span>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =====================================
+                 PRODUCT 04
+            ====================================== -->
+
+            <article class="fashion-card"
+                     data-category="tops">
+
+                <div class="product-image">
+
+                    <img src="https://m.media-amazon.com/images/I/81n5TOZ-CbL._SX679_.jpg"
+                         alt="The Everyday Henley"
+                         loading="lazy">
+
+                    <span class="product-number">
+                        04
+                    </span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="product-type">
+                        TOP · EVERYDAY
+                    </p>
+
+                    <h2>
+                        The Korean Office Shirt
+                    </h2>
+
+                    <p class="product-description">
+                        A polished, comfortable shirt that takes you from campus mornings to office afternoons.
+                    </p>
+
+                    <!-- PASTE YOUR AMAZON ASSOCIATES LINK HERE -->
+                    <a href="https://link.amazon/B0iiq7ja8"
+                       class="shop-button"
+                       target="_blank"
+                       rel="nofollow sponsored">
+
+                        Shop the find
+                        <span>↗</span>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =====================================
+                 PRODUCT 05
+            ====================================== -->
+
+            <article class="fashion-card"
+                     data-category="shirts">
+
+                <div class="product-image">
+
+                    <img src="https://m.media-amazon.com/images/I/91hSbjaT+uL._SX679_.jpg"
+                         alt="The Relaxed Stripe Shirt"
+                         loading="lazy">
+
+                    <span class="product-number">
+                        05
+                    </span>
+
+                    <span class="product-tag">
+                        EDIT PICK
+                    </span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="product-type">
+                        SHIRT · RELAXED
+                    </p>
+
+                    <h2>
+                        The Relaxed Stripe Shirt
+                    </h2>
+
+                    <p class="product-description">
+                        A relaxed drop-shoulder silhouette
+                        with vertical stripes for an easy
+                        everyday statement.
+                    </p>
+
+                    <!-- PASTE YOUR AMAZON ASSOCIATES LINK HERE -->
+                    <a href="https://link.amazon/B0fdRxsOW"
+                       class="shop-button"
+                       target="_blank"
+                       rel="nofollow sponsored">
+
+                        Shop the find
+                        <span>↗</span>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =====================================
+                 PRODUCT 06
+            ====================================== -->
+
+            <article class="fashion-card"
+                     data-category="shirts">
+
+                <div class="product-image">
+
+                    <img src="https://m.media-amazon.com/images/I/71p1nvXbotL._SY741_.jpg"
+                         alt="The Everyday Essential Shirt"
+                         loading="lazy">
+
+                    <span class="product-number">
+                        06
+                    </span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="product-type">
+                        SHIRT · ESSENTIAL
+                    </p>
+
+                    <h2>
+                        The Everyday Essential Shirt
+                    </h2>
+
+                    <p class="product-description">
+                        A simple wardrobe staple designed
+                        to work with everything already
+                        living in your closet.
+                    </p>
+
+                    <!-- PASTE YOUR AMAZON ASSOCIATES LINK HERE -->
+                    <a href="https://link.amazon/B0bORwF75"
+                       class="shop-button"
+                       target="_blank"
+                       rel="nofollow sponsored">
+
+                        Shop the find
+                        <span>↗</span>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =====================================
+                 PRODUCT 07
+            ====================================== -->
+
+            <article class="fashion-card"
+                     data-category="tops statement">
+
+                <div class="product-image">
+
+                    <img src="https://m.media-amazon.com/images/I/91mnzLtgm8L._SX679_.jpg"
+                         alt="The Apricot Bell Sleeve Top"
+                         loading="lazy">
+
+                    <span class="product-number">
+                        07
+                    </span>
+
+                    <span class="product-tag">
+                        PRETTY PICK
+                    </span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="product-type">
+                        TOP · OFFICE
+                    </p>
+
+                    <h2>
+                        The Solid Short Sleeve Top
+                    </h2>
+
+                    <p class="product-description">
+                        Button-Down Striped Print Casual Short Sleeve Shirt 
+                        and a silhouette made for a pretty
+                        little outfit moment.
+                    </p>
+
+                    <!-- PASTE YOUR AMAZON ASSOCIATES LINK HERE -->
+                    <a href="https://link.amazon/B08n0Si2J"
+                       class="shop-button"
+                       target="_blank"
+                       rel="nofollow sponsored">
+
+                        Shop the find
+                        <span>↗</span>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =====================================
+                 PRODUCT 08
+            ====================================== -->
+
+            <article class="fashion-card"
+                     data-category="shirts">
+
+                <div class="product-image">
+
+                    <img src="https://m.media-amazon.com/images/I/61CRMmNGkFL._SY550_.jpg"
+                         alt="The Sculpted Stripe Shirt"
+                         loading="lazy">
+
+                    <span class="product-number">
+                        08
+                    </span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="product-type">
+                        SHIRT · CINCHED
+                    </p>
+
+                    <h2>
+                        Elegant Self Textured Top
+                    </h2>
+
+                    <p class="product-description">
+                        An elegant butter yellow shirt with a cinched waist
+                        for a more defined, feminine silhouette.
+                    </p>
+
+                    <!-- PASTE YOUR AMAZON ASSOCIATES LINK HERE -->
+                    <a href="https://link.amazon/B05FOMvxf"
+                       class="shop-button"
+                       target="_blank"
+                       rel="nofollow sponsored">
+
+                        Shop the find
+                        <span>↗</span>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =====================================
+                 PRODUCT 09
+            ====================================== -->
+
+            <article class="fashion-card"
+                     data-category="tops statement">
+
+                <div class="product-image">
+
+                    <img src="https://m.media-amazon.com/images/I/A1xCfvD5doL._SX679_.jpg"
+                         alt="The Satin Cowl Top"
+                         loading="lazy">
+
+                    <span class="product-number">
+                        09
+                    </span>
+
+                    <span class="product-tag">
+                        PICNIC
+                    </span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="product-type">
+                        BLOUSE · EVENING
+                    </p>
+
+                    <h2>
+                        Gingham Wrap Top
+                    </h2>
+
+                    <p class="product-description">
+                        Red & white gingham sleeveless wrap top with an adjustable side tie and stylish asymmetrical hem. Lightweight and perfect for effortless summer looks.
+
+                    </p>
+
+                    <!-- PASTE YOUR AMAZON ASSOCIATES LINK HERE -->
+                    <a href="https://link.amazon/B0hy0uNGf"
+                       class="shop-button"
+                       target="_blank"
+                       rel="nofollow sponsored">
+
+                        Shop the find
+                        <span>↗</span>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =====================================
+                 PRODUCT 10
+            ====================================== -->
+
+            <article class="fashion-card"
+                     data-category="statement tops">
+
+                <div class="product-image">
+
+                    <img src="https://m.media-amazon.com/images/I/51DLSf-5V-L._SX679_.jpg"
+                         alt="The Sparkle Knit Shrug"
+                         loading="lazy">
+
+                    <span class="product-number">
+                        10
+                    </span>
+
+                    <span class="product-tag">
+                        Y2K EDIT
+                    </span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="product-type">
+                        SHRUG · Y2K
+                    </p>
+
+                    <h2>
+                        The Sparkle Knit Shrug
+                    </h2>
+
+                    <p class="product-description">
+                        A sheer asymmetric knit layer with
+                        a little sparkle for when your outfit
+                        needs something extra.
+                    </p>
+
+                    <!-- PASTE YOUR AMAZON ASSOCIATES LINK HERE -->
+                    <a href="https://link.amazon/B0ilaFlEN"
+                       class="shop-button"
+                       target="_blank"
+                       rel="nofollow sponsored">
+
+                        Shop the find
+                        <span>↗</span>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =====================================
+                 PRODUCT 11
+            ====================================== -->
+
+            <article class="fashion-card"
+                     data-category="shirts">
+
+                <div class="product-image">
+
+                    <img src="https://m.media-amazon.com/images/I/71DC99Y6GrL._SY550_.jpg"
+                         alt="The Korean Office Shirt"
+                         loading="lazy">
+
+                    <span class="product-number">
+                        11
+                    </span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="product-type">
+                        SHIRT · FEMININE
+                    </p>
+
+                    <h2>
+                        The Half Button Down Henley T- Shirt
+                    </h2>
+
+                    <p class="product-description">
+                        A polished, comfortable shirt that
+                        takes you from campus mornings to
+                        office afternoons.
+                    </p>
+
+                    <!-- PASTE YOUR AMAZON ASSOCIATES LINK HERE -->
+                    <a href="https://link.amazon/B0feTb4aM"
+                       class="shop-button"
+                       target="_blank"
+                       rel="nofollow sponsored">
+
+                        Shop the find
+                        <span>↗</span>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </section>
+
+
+        <!-- =========================
+             EDITORIAL BREAK
+        ========================== -->
+
+        <section class="editorial-break">
+
+            <div class="editorial-star">
+                ✦
+            </div>
+
+            <p>
+                WEAR WHAT<br>
+                <em>feels like you.</em>
+            </p>
+
+            <div class="editorial-star">
+                ✦
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FOOTER
+        ========================== -->
+
+        <footer class="fashion-footer">
+
+            <div class="footer-brand">
+                the little edit
+            </div>
+
+            <p>
+                Curated finds for pretty lives.
+            </p>
+
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="fashion.html">Fashion</a>
+                <a href="#">Pinterest</a>
+            </div>
+
+            <div class="affiliate-disclosure">
+                As an Amazon Associate I earn from qualifying purchases.
+            </div>
+
+            <p class="copyright">
+                © <span id="year"></span> The Little Edit
+            </p>
+
+        </footer>
+
+    </main>
+
+
+    <!-- Fashion page JavaScript -->
+    <script src="fashion.js"></script>
+
+</body>
+</html>
